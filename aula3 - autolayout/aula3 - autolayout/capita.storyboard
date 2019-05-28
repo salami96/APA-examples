@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bON-MX-XNo">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="rXW-Da-TDg">
+            <objects>
+                <viewController id="bON-MX-XNo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YHY-mt-FyL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ur1-9o-eWf">
+                                <rect key="frame" x="20" y="64" width="374" height="778"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Capitain Marvel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UxM-Ce-fjC">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="24"/>
+                                        <color key="backgroundColor" red="0.44122481346130371" green="0.90960484743118286" blue="0.3292904794216156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.093331135809999993" green="0.45422947409999997" blue="0.99931150670000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" verticalHuggingPriority="248" horizontalCompressionResistancePriority="240" verticalCompressionResistancePriority="240" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="qHR-uG-3IY">
+                                        <rect key="frame" x="0.0" y="24" width="374" height="733.5"/>
+                                        <color key="backgroundColor" red="0.093331135809999993" green="0.45422947409999997" blue="0.99931150670000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Goose" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heu-ck-re1">
+                                        <rect key="frame" x="0.0" y="757.5" width="374" height="20.5"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ur1-9o-eWf" firstAttribute="top" secondItem="QWo-Lx-6xD" secondAttribute="top" constant="20" id="7qm-am-RhI"/>
+                            <constraint firstItem="ur1-9o-eWf" firstAttribute="leading" secondItem="QWo-Lx-6xD" secondAttribute="leading" constant="20" id="NMI-Ml-dgr"/>
+                            <constraint firstItem="QWo-Lx-6xD" firstAttribute="trailing" secondItem="ur1-9o-eWf" secondAttribute="trailing" constant="20" id="Pgi-44-Edd"/>
+                            <constraint firstItem="QWo-Lx-6xD" firstAttribute="bottom" secondItem="ur1-9o-eWf" secondAttribute="bottom" constant="20" id="y64-lR-KpE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QWo-Lx-6xD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T9p-bv-XRq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-307.24637681159425" y="-156.02678571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cat" width="447" height="679"/>
+    </resources>
+</document>
