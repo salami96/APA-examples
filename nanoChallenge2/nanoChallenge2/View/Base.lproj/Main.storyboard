@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ME6-JD-roI">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Breaking Bad-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="nanoChallenge2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nII-Lo-xlP">
+                                <rect key="frame" x="0.0" y="156" width="414" height="722"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" alpha="0.20000000000000001" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="200" id="tuL-qV-7Fa" customClass="CellTableViewCell" customModule="nanoChallenge2" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="200"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tuL-qV-7Fa" id="Jfd-Gc-43c">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="199.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="videoblocks-breaking-bad-intro-template_rtc1qu8y-__p_thumbnail-full09" highlightedImage="videoblocks-breaking-bad-intro-template_rtc1qu8y-__p_thumbnail-full09" translatesAutoresizingMaskIntoConstraints="NO" id="G3j-bD-MUc">
+                                                    <rect key="frame" x="-19" y="11" width="546" height="178"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="546" id="Dw4-cN-H6J"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7Cs-4H-7bR">
+                                                    <rect key="frame" x="5" y="10" width="389" height="180"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jesse_Pinkman" highlightedImage="Jesse_Pinkman" translatesAutoresizingMaskIntoConstraints="NO" id="4Gh-zS-MAT">
+                                                            <rect key="frame" x="0.0" y="0.0" width="150" height="180"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="150" id="hDB-l7-wcw"/>
+                                                                <constraint firstAttribute="height" constant="180" id="pmX-Pk-HWY"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jesse Pinkman" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9av-UT-BCr">
+                                                            <rect key="frame" x="170" y="0.0" width="219" height="29"/>
+                                                            <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="23"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                                            <color key="highlightedColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="shadowColor" red="0.010527651040000001" green="0.060257193979999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <size key="shadowOffset" width="2" height="2"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.1976798773" green="0.28891414399999998" blue="0.065320439640000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="tintColor" red="0.31796568629999999" green="0.63230776789999998" blue="0.31072705979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="7Cs-4H-7bR" firstAttribute="leading" secondItem="Jfd-Gc-43c" secondAttribute="leading" constant="5" id="5It-0X-IDt"/>
+                                                <constraint firstItem="G3j-bD-MUc" firstAttribute="top" secondItem="Jfd-Gc-43c" secondAttribute="topMargin" id="5QJ-Pa-wOz"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="G3j-bD-MUc" secondAttribute="bottom" id="LVd-sg-xR7"/>
+                                                <constraint firstAttribute="trailing" secondItem="7Cs-4H-7bR" secondAttribute="trailing" constant="20" id="uVJ-xk-TDG"/>
+                                                <constraint firstItem="7Cs-4H-7bR" firstAttribute="centerY" secondItem="G3j-bD-MUc" secondAttribute="centerY" id="uoU-xp-uAB"/>
+                                                <constraint firstItem="G3j-bD-MUc" firstAttribute="leading" secondItem="Jfd-Gc-43c" secondAttribute="leadingMargin" constant="-39" id="yfT-4g-T5e"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" red="0.31796568629999999" green="0.63230776789999998" blue="0.31072705979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="img" destination="4Gh-zS-MAT" id="f3P-XA-lJ6"/>
+                                            <outlet property="nome" destination="9av-UT-BCr" id="Hh2-9X-Pp1"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13158711789999999" green="0.19775083660000001" blue="0.080242864790000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nII-Lo-xlP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="MxC-fu-rTb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nII-Lo-xlP" secondAttribute="trailing" id="nOG-JV-qQ5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nII-Lo-xlP" secondAttribute="bottom" id="tBp-by-8KT"/>
+                            <constraint firstItem="nII-Lo-xlP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wRc-v3-TLx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Breaking Bad" id="Vv8-NF-d9h">
+                        <barButtonItem key="backBarButtonItem" title="Personagens" id="XUM-in-UKc"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="table" destination="nII-Lo-xlP" id="uRf-eo-GTN"/>
+                        <segue destination="KfY-9H-PMv" kind="show" identifier="detail" id="pNj-Dk-phb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1260.8695652173915" y="-531.02678571428567"/>
+        </scene>
+        <!--Detalhes-->
+        <scene sceneID="QzC-Hf-V8O">
+            <objects>
+                <viewController title="Detalhes" id="KfY-9H-PMv" customClass="DetalheViewController" customModule="nanoChallenge2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9f4-QH-hcv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="videoblocks-breaking-bad-intro-template_rtc1qu8y-__p_thumbnail-full09-1" translatesAutoresizingMaskIntoConstraints="NO" id="bpn-De-ooE">
+                                <rect key="frame" x="0.0" y="140" width="414" height="722"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Hx4-cy-6B3">
+                                <rect key="frame" x="17" y="165" width="380" height="658"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="ZJv-cr-FI0">
+                                        <rect key="frame" x="115" y="0.0" width="150" height="218"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jesse_Pinkman" highlightedImage="Jesse_Pinkman" translatesAutoresizingMaskIntoConstraints="NO" id="XHJ-1Z-9Mb">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="180"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="UYu-CS-dmK"/>
+                                                    <constraint firstAttribute="height" constant="180" id="dYQ-7w-PYc"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aaron Paul" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQw-zw-JHa">
+                                                <rect key="frame" x="20" y="196" width="110.5" height="22"/>
+                                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" red="0.010527651040000001" green="0.060257193979999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <size key="shadowOffset" width="2" height="2"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Hbd-3a-AmD">
+                                        <rect key="frame" x="0.0" y="243" width="380" height="415"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fOm-Kn-VY0">
+                                                <rect key="frame" x="0.0" y="0.0" width="380" height="49"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBs-Wf-B6Y">
+                                                        <rect key="frame" x="0.0" y="0.0" width="380" height="19"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="380" id="haZ-Ic-NUg"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.076067662776144879" green="0.11391576776649748" blue="0.046757748197726552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="2"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jesse Pinkman" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ACl-r8-pxb">
+                                                        <rect key="frame" x="0.0" y="24" width="380" height="25"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="380" id="QoF-ee-EwC"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <size key="shadowOffset" width="2" height="2"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="R3S-BX-E7r">
+                                                <rect key="frame" x="0.0" y="64" width="380" height="49"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nascimento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gm7-31-ebs">
+                                                        <rect key="frame" x="0.0" y="0.0" width="380" height="19"/>
+                                                        <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.076067662780000003" green="0.1139157678" blue="0.046757748199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="2"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22/12/1990" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o60-Or-qBy">
+                                                        <rect key="frame" x="0.0" y="24" width="380" height="25"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="380" id="0ye-Ey-9ff"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.076067662780000003" green="0.1139157678" blue="0.046757748199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="2"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fmB-AW-hnd">
+                                                <rect key="frame" x="0.0" y="128" width="380" height="72"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ocupação" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhg-1m-3Lp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="380" height="19"/>
+                                                        <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.076067662780000003" green="0.1139157678" blue="0.046757748199999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="2"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cozinheiro, Cozinheiro, Cozinheiro, Cozinheiro, Cozinheiro" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sv9-5j-Xta">
+                                                        <rect key="frame" x="0.0" y="24" width="380" height="48"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="380" id="t31-Bh-Cd8"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.010527651040000001" green="0.060257193979999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="2"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="LOv-fX-izA">
+                                                <rect key="frame" x="0.0" y="215" width="380" height="49"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CH6-Id-zhp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="380" height="19"/>
+                                                        <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <size key="shadowOffset" width="2" height="2"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alive" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsy-MD-UuW">
+                                                        <rect key="frame" x="0.0" y="24" width="380" height="25"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="380" id="tHq-xb-7jI"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <size key="shadowOffset" width="2" height="2"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="J47-ZJ-kyO">
+                                                <rect key="frame" x="0.0" y="279" width="380" height="49"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apelido" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0FL-fL-6yX">
+                                                        <rect key="frame" x="0.0" y="0.0" width="380" height="19"/>
+                                                        <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <size key="shadowOffset" width="2" height="2"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PinkMan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9i-Sp-gFa">
+                                                        <rect key="frame" x="0.0" y="24" width="380" height="25"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="380" id="297-br-N9b"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <size key="shadowOffset" width="2" height="2"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Hs6-aG-cV5">
+                                                <rect key="frame" x="0.0" y="343" width="380" height="72"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aparições" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fVn-bo-p6H">
+                                                        <rect key="frame" x="0.0" y="0.0" width="380" height="19"/>
+                                                        <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <color key="shadowColor" red="0.010527651040000001" green="0.060257193979999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="2"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 Temporadas, 5 Temporadas, 5 Temporadas, 5 Temporadas" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47I-F0-L8S">
+                                                        <rect key="frame" x="0.0" y="24" width="380" height="48"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="380" id="r8Z-1Q-U3h"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="17"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <color key="shadowColor" red="0.010527651040000001" green="0.060257193979999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <size key="shadowOffset" width="2" height="2"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.13158711789999999" green="0.19775083660000001" blue="0.080242864790000007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bpn-De-ooE" firstAttribute="top" secondItem="yru-PU-fo2" secondAttribute="top" id="3wx-uZ-B9D"/>
+                            <constraint firstItem="yru-PU-fo2" firstAttribute="bottom" secondItem="bpn-De-ooE" secondAttribute="bottom" id="EVw-w6-H9Y"/>
+                            <constraint firstItem="bpn-De-ooE" firstAttribute="leading" secondItem="yru-PU-fo2" secondAttribute="leading" id="Rs5-eM-ueJ"/>
+                            <constraint firstItem="Hx4-cy-6B3" firstAttribute="centerX" secondItem="9f4-QH-hcv" secondAttribute="centerX" id="ngB-UE-OI5"/>
+                            <constraint firstItem="yru-PU-fo2" firstAttribute="trailing" secondItem="bpn-De-ooE" secondAttribute="trailing" id="pbG-Vh-ez4"/>
+                            <constraint firstItem="Hx4-cy-6B3" firstAttribute="top" secondItem="yru-PU-fo2" secondAttribute="top" constant="25" id="rIV-Qh-5ON"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yru-PU-fo2"/>
+                    </view>
+                    <connections>
+                        <outlet property="aniversario" destination="o60-Or-qBy" id="MMD-q0-SjP"/>
+                        <outlet property="aparicoes" destination="47I-F0-L8S" id="Rpl-68-Fe7"/>
+                        <outlet property="apelido" destination="Q9i-Sp-gFa" id="JGD-8P-1Mh"/>
+                        <outlet property="ator" destination="BQw-zw-JHa" id="wyz-br-UtF"/>
+                        <outlet property="image" destination="XHJ-1Z-9Mb" id="URu-e1-QVs"/>
+                        <outlet property="nome" destination="ACl-r8-pxb" id="cea-cH-pbW"/>
+                        <outlet property="ocupacoes" destination="Sv9-5j-Xta" id="0h2-OT-u6O"/>
+                        <outlet property="status" destination="nsy-MD-UuW" id="Lzi-o4-CtC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VEv-4x-HXM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2073.913043478261" y="-531.02678571428567"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GiW-Fd-jLB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ME6-JD-roI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="blackTranslucent" largeTitles="YES" id="X6T-Nn-WsB">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.050497308373451233" green="0.26546484231948853" blue="0.04713304340839386" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.010527651039228272" green="0.060257193976885649" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textShadowColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ahw-IQ-YBS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mmt-IL-ZfA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="527.536231884058" y="-531.02678571428567"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Jesse_Pinkman" width="220" height="292"/>
+        <image name="videoblocks-breaking-bad-intro-template_rtc1qu8y-__p_thumbnail-full09" width="1920" height="1080"/>
+        <image name="videoblocks-breaking-bad-intro-template_rtc1qu8y-__p_thumbnail-full09-1" width="580" height="1030"/>
+    </resources>
+</document>
